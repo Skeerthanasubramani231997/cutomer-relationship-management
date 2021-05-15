@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    //background-color:#FFE4B5;
+  //background-size : cover;
+ // height : 100vh;
+ // transition: .4s;
+animation-direction: alternate;
+}
+.saru
+{
+font:25pt "Times New Roman";
+color:white;
+font-weight:bold;
+font-family:Brush Script MT;
+text-align:center;
+border:1px solid black;
+background-color:#438D80;
+text-transform: uppercase;
+text-shadow: 1px 1px #F0FFF0;
+transition: .4s;
+font-style: oblique;
+}
+.col
+{
+font:15pt "Times New Roman";
+color:black;
+top:5%;
+text-align:left;
+font-weight:bold;
+text-decoration: none;
+text-shadow: 1px 1px F0FFF0;
+transition: .4s;
+}
+
+footer{
+	clear: both;
+	height: 2em;
+	margin: 0;
+	padding: 1em;
+	background: #3b5998;
+	color: white;
+	text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #438D80;
+  padding: 15px 10px;
+    color: F0FFF0;
+text-shadow: 1px 1px #F0FFF0;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-weight:bold;
+	border:3px solid black;
+border-style:double;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+text-shadow: 1px 1px #F0FFF0;
+  font-weight:bold;
+  text-align: right;
+  padding: 14px 20px;
+  text-decoration: none;
+transition: .4s;
+
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #438D80;
+  display: block;
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+	display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    
+  }
+}
+//Brush Script MT
+//Comic Sans
